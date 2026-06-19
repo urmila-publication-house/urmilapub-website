@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Home on Urmila Publication House</title>
+		<link>http://localhost:1313/</link>
+		<description>Recent content in Home on Urmila Publication House</description>
+		<generator>Hugo</generator>
+		<language>en-in</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Recent Amendments to Companies Act 2013</title>
+				<link>http://localhost:1313/blog/recent-amendments-companies-act/</link>
+				<pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/blog/recent-amendments-companies-act/</guid>
+				<description>&lt;p&gt;The Ministry of Corporate Affairs has notified several amendments effective from April 2025. These changes impact&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;(Full blog content placeholder)&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>NCLT Practice Update: Key Procedural Changes</title>
+				<link>http://localhost:1313/blog/nclt-practice-update/</link>
+				<pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/blog/nclt-practice-update/</guid>
+				<description>&lt;p&gt;The National Company Law Tribunal has issued new practice directions&amp;hellip;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Landmark IBC Judgment by Supreme Court</title>
+				<link>http://localhost:1313/blog/ibc-landmark-judgment/</link>
+				<pubDate>Sun, 20 Apr 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/blog/ibc-landmark-judgment/</guid>
+				<description>&lt;p&gt;In a significant ruling, the Supreme Court clarified the rights of operational creditors&amp;hellip;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>About the Author</title>
+				<link>http://localhost:1313/about/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/about/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;Urmila Publication House&lt;/strong&gt; is dedicated to providing authoritative legal resources&amp;hellip;&#xA;(Add full biography, credentials, list of publications manually here)&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Commentary on the Companies Act &amp; NCLT Practice</title>
+				<link>http://localhost:1313/books/companies-act-nclt/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/books/companies-act-nclt/</guid>
+				<description>&lt;p&gt;A comprehensive guide covering the Companies Act 2013, NCLT/NCLAT procedures, landmark judgments, and practical insights for professionals and students.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Introduction to Companies Act&lt;/li&gt;&#xA;&lt;li&gt;Incorporation &amp;amp; Matters&lt;/li&gt;&#xA;&lt;li&gt;NCLT &amp;amp; NCLAT Practice&#xA;&amp;hellip;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+			</item>
+			<item>
+				<title>Commentary on the Companies Act &amp; NCLT Practice</title>
+				<link>http://localhost:1313/books/company-law-ready-reckoner/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/books/company-law-ready-reckoner/</guid>
+				<description>&lt;p&gt;A comprehensive guide covering the Companies Act 2013, NCLT/NCLAT procedures, landmark judgments, and practical insights for professionals and students.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Introduction to Companies Act&lt;/li&gt;&#xA;&lt;li&gt;Incorporation &amp;amp; Matters&lt;/li&gt;&#xA;&lt;li&gt;NCLT &amp;amp; NCLAT Practice&#xA;&amp;hellip;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+			</item>
+			<item>
+				<title>Commentary on the Companies Act &amp; NCLT Practice</title>
+				<link>http://localhost:1313/books/ibc-nclt/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/books/ibc-nclt/</guid>
+				<description>&lt;p&gt;A comprehensive guide covering the Companies Act 2013, NCLT/NCLAT procedures, landmark judgments, and practical insights for professionals and students.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Introduction to Companies Act&lt;/li&gt;&#xA;&lt;li&gt;Incorporation &amp;amp; Matters&lt;/li&gt;&#xA;&lt;li&gt;NCLT &amp;amp; NCLAT Practice&#xA;&amp;hellip;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+			</item>
+			<item>
+				<title>Contact Us</title>
+				<link>http://localhost:1313/contact/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/contact/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Disclaimer</title>
+				<link>http://localhost:1313/disclaimer/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/disclaimer/</guid>
+				<description>&lt;p&gt;(Placeholder disclaimer text)&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Page Not Found</title>
+				<link>http://localhost:1313/404/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/404/</guid>
+				<description>&lt;p&gt;This page intentionally left blank – content comes from the layout.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Privacy Policy</title>
+				<link>http://localhost:1313/privacy/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/privacy/</guid>
+				<description>&lt;p&gt;(Placeholder privacy policy text)&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Video Insights</title>
+				<link>http://localhost:1313/videos/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/videos/</guid>
+				<description></description>
+			</item>
+	</channel>
+</rss>

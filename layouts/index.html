@@ -1,0 +1,67 @@
+{{ define "main" }}
+<section class="hero text-center d-flex align-items-center">
+  <div class="container">
+    <h1 class="display-4 gold-text">Authoritative Legal Commentaries</h1>
+    <p class="lead">Companies Act, NCLT & Allied Laws – by Urmila Publication House</p>
+    <a href="#books" class="btn btn-gold btn-lg mt-4 scroll-link">Explore Our Books</a>
+  </div>
+</section>
+
+<section id="books" class="py-5">
+  <div class="container">
+    <h2 class="text-center section-title mb-5">Featured Publications</h2>
+    {{ partial "swiper-books.html" . }}
+    <div class="text-center mt-4">
+      <a href="{{ "/books/" | relURL }}" class="btn btn-outline-primary">View Full Catalogue</a>
+    </div>
+  </div>
+</section>
+
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center section-title mb-5">What Readers Say</h2>
+    {{ partial "swiper-testimonials.html" . }}
+  </div>
+</section>
+
+<section class="py-5">
+  <div class="container">
+    <h2 class="section-title text-center mb-5">Latest Legal Updates</h2>
+    <div class="row g-4">
+      {{ $blogPosts := where .Site.RegularPages "Section" "blog" | first 3 }}
+      {{ range $blogPosts }}
+      <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title"><a href="{{ .Permalink }}" class="text-decoration-none">{{ .Title }}</a></h5>
+            <p class="card-text small text-muted">{{ .Date.Format "Jan 2, 2006" }}</p>
+            <p class="card-text">{{ .Summary | truncate 100 }}</p>
+            <a href="{{ .Permalink }}" class="btn btn-sm btn-outline-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    <div class="text-center mt-4">
+      <a href="{{ "/blog/" | relURL }}" class="btn btn-outline-primary">All Updates</a>
+    </div>
+  </div>
+</section>
+
+<section class="py-5 bg-primary text-white">
+  <div class="container text-center">
+    <h2 class="section-title text-white">Stay Informed – Upcoming Titles</h2>
+    <p>Be the first to know about new editions and releases.</p>
+    <form name="notify" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="row justify-content-center">
+      <input type="hidden" name="form-name" value="notify">
+      <p class="d-none"><input name="bot-field"></p>
+      <div class="col-md-5 mb-2">
+        <input type="email" name="email" class="form-control form-control-lg" placeholder="Your email address" required>
+      </div>
+      <div class="col-md-auto mb-2">
+        <button type="submit" class="btn btn-gold btn-lg">Notify Me</button>
+      </div>
+    </form>
+  </div>
+</section>
+{{ end }}

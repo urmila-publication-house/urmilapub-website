@@ -1,0 +1,22 @@
+{{ define "main" }}
+<div class="container py-5">
+  <h1 class="section-title text-center mb-5">{{ .Title }}</h1>
+  <div class="row g-4">
+    {{ $videos := .Site.Data.videos }}
+    {{ if $videos }}
+      {{ range $videos }}
+      <div class="col-md-6 col-lg-4">
+        <div class="video-thumbnail">
+          <div class="ratio ratio-16x9">
+            <iframe src="https://www.youtube.com/embed/{{ .youtubeId }}" title="{{ .title }}" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <h5 class="mt-2">{{ .title }}</h5>
+        </div>
+      </div>
+      {{ end }}
+    {{ else }}
+      <p class="text-muted">No videos available yet.</p>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

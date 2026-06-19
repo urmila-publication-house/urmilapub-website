@@ -1,0 +1,30 @@
+baseURL = "https://www.urmilapublicationhouse.in/"
+locale = "en-in"
+title = "Urmila Publication House"
+
+[params]
+  description = "Authoritative Legal Commentaries on Companies Act, NCLT, IBC and allied Indian laws."
+  author = "Urmila Publication House"
+  logoText = "Urmila Publication House"
+  disqusShortname = "urmilapub"
+  amazonAffiliateTag = ""
+  numberOfFeaturedBooks = 3
+  postsPerPage = 5
+
+[outputFormats]
+  [outputFormats.RSS]
+    mediatype = "application/rss+xml"
+    baseName = "index"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS"]
+  page = ["HTML"]
+
+[mediaTypes]
+  [mediaTypes."application/json"]
+    suffixes = ["json"]
+
+[privacy]
+  [privacy.disqus]
+    disable = false

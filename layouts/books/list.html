@@ -1,0 +1,26 @@
+{{ define "main" }}
+<div class="container py-5">
+  <h1 class="section-title text-center mb-5">Our Books</h1>
+  <div class="row g-4">
+    {{ $books := hugo.Data.books }}
+    {{ if $books }}
+      {{ range $books }}
+      <div class="col-md-6 col-lg-4">
+        <div class="card book-card h-100 border-0 shadow-sm">
+          <img src="{{ "images/" | relURL }}{{ index .gallery 0 | default "placeholder-cover.jpg" }}" class="card-img-top" alt="{{ .title }}">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">{{ .title }}</h5>
+            <p class="small text-muted">{{ .edition }}</p>
+            <p class="card-text">{{ .description | truncate 120 }}</p>
+            <div class="mt-auto">
+              <a href="{{ "/books/" | relURL }}{{ .slug }}/" class="btn btn-outline-primary me-2">Details</a>
+              <a href="{{ .amazonLink }}" target="_blank" class="btn btn-gold"><i class="fab fa-amazon me-1"></i> Buy</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    {{ end }}
+  </div>
+</div>
+{{ end }}

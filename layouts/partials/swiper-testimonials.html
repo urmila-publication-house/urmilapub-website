@@ -1,0 +1,17 @@
+<div class="swiper testimonialSwiper">
+  <div class="swiper-wrapper">
+    {{ $testimonials := hugo.Data.testimonials }}
+    {{ if $testimonials }}
+      {{ range $testimonials }}
+      <div class="swiper-slide">
+        <div class="testimonial-card text-center p-4">
+          <blockquote class="mb-3 fst-italic">“{{ .quote }}”</blockquote>
+          <p class="fw-bold mb-0">{{ .name }}</p>
+          <small class="text-muted">{{ .designation }}</small>
+        </div>
+      </div>
+      {{ end }}
+    {{ end }}
+  </div>
+  <div class="swiper-pagination"></div>
+</div>

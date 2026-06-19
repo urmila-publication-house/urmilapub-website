@@ -1,0 +1,28 @@
+<header class="navbar navbar-expand-lg sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="{{ "/" | relURL }}">
+      <span class="brand-text">{{ .Site.Params.logoText }}</span>
+    </a>
+    <div class="d-flex align-items-center ms-auto order-lg-last">
+      <button class="btn btn-icon search-toggle" aria-label="Search" data-bs-toggle="modal" data-bs-target="#searchModal">
+        <i class="fas fa-search"></i>
+      </button>
+      <button class="btn btn-icon ms-2" id="darkModeToggle" aria-label="Toggle dark mode">
+        <i class="fas fa-moon"></i>
+      </button>
+      <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="{{ "/" | relURL }}">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ "/books/" | relURL }}">Books</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ "/blog/" | relURL }}">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ "/videos/" | relURL }}">Videos</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ "/about/" | relURL }}">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ "/contact/" | relURL }}">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</header>

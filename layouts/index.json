@@ -1,0 +1,8 @@
+{{- $.Scratch.Add "index" slice -}}
+{{- range where .Site.Pages "Kind" "page" -}}
+  {{- if or (eq .Section "books") (eq .Section "blog") (eq .Type "page") -}}
+    {{- $content := .Plain | plainify -}}
+    {{- $.Scratch.Add "index" (dict "url" .Permalink "title" .Title "content" $content "tags" (.Params.tags | default slice) "section" .Section) -}}
+  {{- end -}}
+{{- end -}}
+{{- $.Scratch.Get "index" | jsonify -}}

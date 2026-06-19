@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Tags on Urmila Publication House</title>
+		<link>http://localhost:1313/tags/</link>
+		<description>Recent content in Tags on Urmila Publication House</description>
+		<generator>Hugo</generator>
+		<language>en-in</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Amendment</title>
+				<link>http://localhost:1313/tags/amendment/</link>
+				<pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/amendment/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Companies Act</title>
+				<link>http://localhost:1313/tags/companies-act/</link>
+				<pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/companies-act/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>NCLT</title>
+				<link>http://localhost:1313/tags/nclt/</link>
+				<pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/nclt/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Procedure</title>
+				<link>http://localhost:1313/tags/procedure/</link>
+				<pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/procedure/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>IBC</title>
+				<link>http://localhost:1313/tags/ibc/</link>
+				<pubDate>Sun, 20 Apr 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/ibc/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Judgment</title>
+				<link>http://localhost:1313/tags/judgment/</link>
+				<pubDate>Sun, 20 Apr 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/judgment/</guid>
+				<description></description>
+			</item>
+	</channel>
+</rss>

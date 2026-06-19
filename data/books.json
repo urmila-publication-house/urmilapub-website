@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "companies-act-nclt",
+    "title": "Commentary on the Companies Act & NCLT Practice",
+    "edition": "1st Edition, 2025",
+    "isbn": "978-81-XXXXX-01-1",
+    "amazonLink": "https://www.amazon.in/dp/YOUR-ASIN-1",
+    "buyDirectPlaceholder": true,
+    "description": "A comprehensive guide covering the Companies Act 2013, NCLT/NCLAT procedures, landmark judgments, and practical insights for professionals and students. With detailed commentary and ready-to-use templates.",
+    "toc": "1. Introduction to Companies Act\n2. Incorporation & Matters\n3. NCLT & NCLAT Practice\n4. Oppression & Mismanagement\n5. Winding Up\n…",
+    "samplePdf": "/sample-chapters/companies-act-sample.pdf",
+    "authorName": "Urmila Publication House",
+    "gallery": ["cover1.jpg", "back1.jpg", "spread1.jpg"],
+    "tags": ["Companies Act", "NCLT", "Corporate Law"]
+  },
+  {
+    "slug": "ibc-nclt",
+    "title": "Insolvency & Bankruptcy Code: Law & Practice",
+    "edition": "2nd Edition, 2025",
+    "isbn": "978-81-XXXXX-02-8",
+    "amazonLink": "https://www.amazon.in/dp/YOUR-ASIN-2",
+    "buyDirectPlaceholder": true,
+    "description": "Detailed commentary on the Insolvency and Bankruptcy Code with NCLT case laws and procedural checklists. Includes recent amendments and judicial pronouncements.",
+    "toc": "1. Overview of IBC\n2. Corporate Insolvency Resolution Process\n3. Liquidation\n4. NCLT & NCLAT Jurisdiction\n…",
+    "samplePdf": "/sample-chapters/ibc-sample.pdf",
+    "authorName": "Urmila Publication House",
+    "gallery": ["ibc-cover.jpg", "ibc-back.jpg"],
+    "tags": ["IBC", "Insolvency", "NCLT"]
+  },
+  {
+    "slug": "company-law-ready-reckoner",
+    "title": "Company Law Ready Reckoner",
+    "edition": "1st Edition, 2025",
+    "isbn": "978-81-XXXXX-03-5",
+    "amazonLink": "https://www.amazon.in/dp/YOUR-ASIN-3",
+    "buyDirectPlaceholder": true,
+    "description": "Concise reference for corporate professionals, covering amendments, circulars, and FAQs. Ideal for CA, CS, and law students.",
+    "toc": "1. Company Types & Features\n2. Meetings & Resolutions\n3. Accounts & Audit\n4. Investor Protection\n…",
+    "samplePdf": "/sample-chapters/company-ready-reckoner.pdf",
+    "authorName": "Urmila Publication House",
+    "gallery": ["ready-cover.jpg"],
+    "tags": ["Companies Act", "Reference"]
+  }
+]
