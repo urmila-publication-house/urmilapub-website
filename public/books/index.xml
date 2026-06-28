@@ -12,25 +12,25 @@
 		
 			<atom:link href="http://localhost:1313/books/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>Commentary on the Companies Act &amp; NCLT Practice</title>
-				<link>http://localhost:1313/books/companies-act-nclt/</link>
+				<title>Adjudication of Companies Act Matters under NCLT</title>
+				<link>http://localhost:1313/books/adjudication-companies-matters-nclt/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/books/companies-act-nclt/</guid>
-				<description>&lt;p&gt;A comprehensive guide covering the Companies Act 2013, NCLT/NCLAT procedures, landmark judgments, and practical insights for professionals and students.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Introduction to Companies Act&lt;/li&gt;&#xA;&lt;li&gt;Incorporation &amp;amp; Matters&lt;/li&gt;&#xA;&lt;li&gt;NCLT &amp;amp; NCLAT Practice&#xA;&amp;hellip;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+				<guid>http://localhost:1313/books/adjudication-companies-matters-nclt/</guid>
+				<description></description>
 			</item>
 			<item>
-				<title>Commentary on the Companies Act &amp; NCLT Practice</title>
-				<link>http://localhost:1313/books/company-law-ready-reckoner/</link>
+				<title>Law on Insolvency &amp; Bankruptcy</title>
+				<link>http://localhost:1313/books/law-insolvency-bankruptcy/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/books/company-law-ready-reckoner/</guid>
-				<description>&lt;p&gt;A comprehensive guide covering the Companies Act 2013, NCLT/NCLAT procedures, landmark judgments, and practical insights for professionals and students.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Introduction to Companies Act&lt;/li&gt;&#xA;&lt;li&gt;Incorporation &amp;amp; Matters&lt;/li&gt;&#xA;&lt;li&gt;NCLT &amp;amp; NCLAT Practice&#xA;&amp;hellip;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+				<guid>http://localhost:1313/books/law-insolvency-bankruptcy/</guid>
+				<description></description>
 			</item>
 			<item>
-				<title>Commentary on the Companies Act &amp; NCLT Practice</title>
-				<link>http://localhost:1313/books/ibc-nclt/</link>
+				<title>Serious Fraud under the Companies Act &amp; LLP Act</title>
+				<link>http://localhost:1313/books/serious-fraud-under-companies-act/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/books/ibc-nclt/</guid>
-				<description>&lt;p&gt;A comprehensive guide covering the Companies Act 2013, NCLT/NCLAT procedures, landmark judgments, and practical insights for professionals and students.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Introduction to Companies Act&lt;/li&gt;&#xA;&lt;li&gt;Incorporation &amp;amp; Matters&lt;/li&gt;&#xA;&lt;li&gt;NCLT &amp;amp; NCLAT Practice&#xA;&amp;hellip;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+				<guid>http://localhost:1313/books/serious-fraud-under-companies-act/</guid>
+				<description></description>
 			</item>
 	</channel>
 </rss>

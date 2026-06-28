@@ -28,3 +28,6 @@ title = "Urmila Publication House"
 [privacy]
   [privacy.disqus]
     disable = false
+
+[markup.goldmark.renderer]
+  unsafe = true
