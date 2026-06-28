@@ -1,6 +1,6 @@
 <div class="swiper booksSwiper">
   <div class="swiper-wrapper">
-    {{ $books := .Site.Data.books }}
+    {{ $books := hugo.Data.books }}
     {{ $limit := .Site.Params.numberOfFeaturedBooks | default 3 }}
     {{ if $books }}
       {{ range first $limit $books }}

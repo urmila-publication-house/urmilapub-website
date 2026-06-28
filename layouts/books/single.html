@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ $bookSlug := .Params.book }}
-{{ $books := .Site.Data.books }}
+{{ $books := hugo.Data.books }}
 {{ if $books }}
   {{ $book := index (where $books "slug" $bookSlug) 0 }}
   {{ if not $book }}

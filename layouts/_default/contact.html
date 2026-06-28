@@ -22,7 +22,7 @@
           <label for="book" class="form-label">Book Title (if applicable)</label>
           <select name="book" id="book" class="form-select">
             <option value="">-- Select --</option>
-            {{ $books := .Site.Data.books }}
+            {{ $books := hugo.Data.books }}
             {{ if $books }}
               {{ range $books }}
               <option value="{{ .title }}">{{ .title }}</option>
